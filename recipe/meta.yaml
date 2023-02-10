@@ -26,9 +26,9 @@ requirements:
     - numpy
     - pint
     - shapely
-    - networkx >= 1.3.0
+    - networkx 
     - geoalchemy2
-    - osmnx
+    - osmnx >=1.3.0
     - scikit-learn
     - tqdm
     - similaritymeasures
