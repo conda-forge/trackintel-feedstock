@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -26,9 +26,9 @@ requirements:
     - numpy
     - pint
     - shapely
-    - networkx
+    - networkx 
     - geoalchemy2
-    - osmnx
+    - osmnx >=1.3.0
     - scikit-learn
     - tqdm
     - similaritymeasures
