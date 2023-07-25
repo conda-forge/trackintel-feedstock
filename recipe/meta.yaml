@@ -21,7 +21,7 @@ requirements:
   run:
     - python >=3.6
     - geopandas >=0.12.0
-    - matplotlib
+    - matplotlib-base
     - numpy
     - pint
     - networkx
@@ -49,4 +49,6 @@ about:
 
 extra:
   recipe-maintainers:
-    - hong2223
+    - hongyeehh
+    - henrymartin1
+    - NinaWie
