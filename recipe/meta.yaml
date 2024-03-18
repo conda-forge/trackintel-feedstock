@@ -1,5 +1,5 @@
 {% set name = "trackintel" %}
-{% set version = "1.2.4" %}
+{% set version = "1.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/trackintel-{{ version }}.tar.gz
-  sha256: 484590e076bee854576e2ba986f69dae2c79a0a1b3fa20690ace1ae6430dd8c4
+  sha256: e6d841cb1a1d8ed74301492906cca49dce9961878b03b93668959107ce9f263b
 
 build:
   noarch: python
