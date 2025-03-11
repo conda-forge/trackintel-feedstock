@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/trackintel-{{ version }}.tar.gz
-  sha256: e8cc3787198c1c9f535ef87bd1a62f4ad4de9cd9f68dda5aa44805156fce7658
+  sha256: 0e8cbffd852d159d0653d8e2ceb7e977941bbe605748e0e0518b8d9accaf26f0
 
 build:
   noarch: python
