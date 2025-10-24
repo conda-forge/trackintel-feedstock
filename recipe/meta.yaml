@@ -20,13 +20,13 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - geopandas>=1.1.0
+    - geopandas >=1.1.0
     - matplotlib-base
     - numpy
     - pint
     - networkx
     - geoalchemy2
-    - osmnx>=2.0.0
+    - osmnx >=2.0.0
     - scikit-learn
     - tqdm
     - psycopg2
